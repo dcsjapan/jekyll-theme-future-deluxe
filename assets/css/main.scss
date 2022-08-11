@@ -1,0 +1,58 @@
+---
+---
+// Importing SASS variables...
+	@import 'future-imperfect/libs/vars';
+
+// Setting font variables...
+	$font: (
+		family:						({{ site.font_family.text | default: "'Source Sans', Helvetica, sans-serif" }}),
+		family-fixed:				('Courier New', monospace),
+		family-heading:				({{ site.font_family.head | default: "'Raleway', Helvetica, sans-serif" }}),
+		weight:						400,
+		weight-bold:				700,
+		weight-heading:				400,
+		weight-heading-bold:		800,
+		weight-heading-extrabold:	900,
+		kerning-heading:			0.25em
+	);
+
+// Setting palette variables...
+	$palette: (
+		bg:							{{ site.colors.article | default: '#ffffff' }},
+		bg-alt:						{{ site.colors.body | default: '#f4f4f4' }},
+		fg:							{{ site.colors.text.normal | default: '#646464' }},
+		fg-bold:					{{ site.colors.text.bold | default: '#3c3b3b' }},
+		fg-light:					{{ site.colors.text.lite | default: '#aaaaaa' }},
+		border:						rgba(160,160,160,0.3),
+		border-bg:					rgba(160,160,160,0.075),
+		border-alt:					rgba(160,160,160,0.65),
+		accent:						{{ site.colors.accent | default: '#2ebaae' }}
+	);
+
+// Importing SASS libraries...
+	@import 'future-imperfect/libs/functions';
+	@import 'future-imperfect/libs/mixins';
+	@import 'future-imperfect/libs/vendor';
+	@import 'future-imperfect/libs/breakpoints';
+	@import 'future-imperfect/libs/html-grid';
+
+// Setting site webfont selection as configured...
+{% assign font_url = site.webfont_url | default: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900' %}
+	@import url('{{ font_url }}');
+{% if site.use_fa_fonts %}
+	@import "{{ '/assets/css/fontawesome-all.min.css' | relative_url }}";
+{% endif %}
+
+// Importing main Spectral styles...
+  @import 'future-imperfect-main';
+
+// Setting custom theme colors as configured...
+#header, #header h1, #header .main ul li > a {
+  {% if site.colors.header.back %}background-color: {{ site.colors.header.back }};{% endif %}
+	{% if site.colors.header.text %}color: {{ site.colors.header.text }};{% endif %}
+}
+
+#menu, #menu h3, #menu .button {
+	{% if site.colors.menu.back %}background-color: {{ site.colors.menu.back }};{% endif %}
+	{% if site.colors.menu.text %}color: {{ site.colors.menu.text }} !important;{% endif %}
+}

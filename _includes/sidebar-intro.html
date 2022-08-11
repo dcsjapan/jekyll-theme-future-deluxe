@@ -1,0 +1,11 @@
+{% assign image_source = site.image_source | default: '/assets/images/' %}
+{% assign logo_image = include.datafile.logo %}
+
+<!-- Intro -->
+<section id="intro">
+  <a href="{{ include.datafile.link }}" class="logo"><img src="{{ logo_image | prepend: image_source | relative_url }}" alt="" /></a>
+  <header>
+    <h2>{{ include.datafile.title }}</h2>
+    <p>{{ include.datafile.text }}</p>
+  </header>
+</section>

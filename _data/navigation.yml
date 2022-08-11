@@ -1,0 +1,32 @@
+header:
+  - text: Lorem
+    link: /lorem/
+
+  - text: Ipsum
+    link: /ipsum/
+
+  - text: Feugiat
+    link: /feugiat/
+
+  - text: Tempus
+    link: /tempus/
+
+  - text: Adipiscing
+    link: /adipsicing/
+
+menu:
+  - text: Home
+    sub:  This is the blog page
+    link: /
+
+  - text: Generic
+    sub:  A single-column page
+    link: /single/
+
+  - text: Error
+    sub:  A sample error page
+    link: /error/
+
+  - text: Elements
+    sub:  A sampling of styles
+    link: /elements/

@@ -1,0 +1,20 @@
+{% assign image_source = site.image_source | default: '/assets/images/' %}
+{% assign post_source = site.posts | where: 'sidebar', 'list' %}
+
+<!-- Posts List -->
+<section>
+  <ul class="posts">
+    {% for post in post_source %}
+      <!-- Post -->
+      <li>
+        <article>
+          <header>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.heading | default: post.title }}</a></h3>
+            <time class="published">{{ post.date | date: site.date_format }}</time>
+          </header>
+          <a href="{{ post.url | relative_url }}" class="image"><img src="{{ post.image | prepend: 'thumb/' | prepend: image_source | relative_url }}" alt="" /></a>
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

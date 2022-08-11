@@ -1,0 +1,26 @@
+{% assign image_source = site.image_source | default: '/assets/images/' %}
+<!-- Post -->
+<article class="post">
+  <header>
+    <div class="title">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.heading | default: post.title }}</a></h2>
+      <p>{{ post.subtitle }}</p>
+    </div>
+    <div class="meta">
+      <time class="published">{{ post.date | date: site.date_format }}</time>
+      <a href="#" class="author"><span class="name">{{ post.author }}</span><img src="{{ 'avatar.jpg' | prepend: image_source | relative_url }}" alt="" /></a>
+    </div>
+  </header>
+  <a href="{{ post.url | relative_url }}" class="image featured"><img src="{{ post.image | prepend: image_source | relative_url }}" alt="" /></a>
+  {{ post.excerpt }}
+  <footer>
+    <ul class="actions">
+      <li><a href="{{ post.url | relative_url }}" class="button large">Continue Reading</a></li>
+    </ul>
+    <ul class="stats">
+      <li><a href="{{ post.category | downcase | prepend: '/' | append: '/' | relative_url }}">{{ post.category }}</a></li>
+      <li><a href="#" class="icon solid fa-heart">28</a></li>
+      <li><a href="#" class="icon solid fa-comment">128</a></li>
+    </ul>
+  </footer>
+</article>

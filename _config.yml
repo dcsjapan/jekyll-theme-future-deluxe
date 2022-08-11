@@ -1,0 +1,192 @@
+#	Future Deluxe for Jekyll (https://github.com/dcsjapan/jekyll-theme-future-deluxe)
+#	by Dominion (https://www.dcsjapan.com)
+#	Free for personal and commercial use under CC-BY-3.0 (https://creativecommons.org/licenses/by/3.0/)
+#
+#	Based on Future Imperfect (https://html5up.net/future-imperfect)
+#	by HTML5 UP (https://html5up.net | @ajlkn)
+#	Free for personal and commercial use under CC-BY-3.0 (https://html5up.net/license)
+
+
+### SITE SETTINGS
+
+# The title of your site; used in title tags and <h1> headers.
+title:            Future Deluxe
+
+# The site description; used in site description meta tags.
+description:      A customizable Jekyll theme based on the "Future Imperfect" site template by HTML5 UP
+
+# The default language for all pages in the site; defaults to "en".
+lang:           en
+
+# The base protocol and hostname for your site, e.g. "http://example.com".
+url:            ""
+
+# The subpath for a site that isn't in the web root, e.g. "/blog".
+baseurl:        ""
+
+# The path where image files are stored; defaults to '/assets/images/'.
+image_source:   /demo_images/  # (You may specify an external server as an absolute URL.)
+
+# The default format for dates displayed by the site.
+date_format:    "%B %d, %Y"
+
+# The string that delimits the end of post exerpts.
+excerpt_separator: <!--end_excerpt-->
+
+
+### TITLE TAG SETTINGS
+
+# The order in which the site and page titles should be shown in title tags.
+title_sequence:   page  # Enter "site" to show the site title first; defaults to "page".
+
+# The string to separate the site and page titles in the title tag; defaults to "|".
+title_separator:  " | "
+
+# A short desccription for use in title tag when page title is empty; defaults to null.
+tagline:          A Jekyll theme based on Future Imperfet by HTML5 UP
+
+
+### THEME SETTINGS
+
+# This enables use of the Spectral theme. (NOTE: REFERENCE ONLY; DO NOT UNCOMMENT!)
+# theme:          jekyll-theme-future-deluxe
+
+# Use the settings below customize your site's fonts.
+font_family:
+
+  # The font family setting for body text; defaults to "'Source Sans', Helvetica, sans-serif".
+  text:           "'Source Sans', Helvetica, sans-serif"
+
+  # The font family setting for headlines; defaults to "'Raleway', Helvetica, sans-serif".
+  head:           "'Raleway', Helvetica, sans-serif"
+
+# The URL for the webfonts to use for the site; defaults to Source Sans and Raleway from Google.
+webfonts_url:     "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900"
+
+# This enables loading of Font Awesome icon fonts; leave blank to disable.
+use_fa_fonts:     true  # NOTE: Must be enabled to show social media icons in the footer.
+
+# Use the settings below customize your site's colors. (NOTE: HEX VALUES MUST BE IN QUOTES!)
+colors:
+
+  # The webapge background color; defaults to "#f4f4f4".
+  body:           "#f4f4f4"
+
+  # The background color for articles; defaults to "#ffffff".
+  main:           "#ffffff"
+
+  # Text colors:
+  text:
+
+    # The color of normal text; defaults to "#646464".
+    normal:       "#646464"
+
+    # The color of bold text; defaults to "#3c3b3b".
+    bold:         "#3c3b3b"
+
+    # The color of light text; defaults to "#aaaaaa".
+    lite:         "#aaaaaa"
+
+  # The accent color for links and buttons; defaults to "#2ebaae".
+  accent:         "#2ebaae"
+
+  # Site header colors:
+  header:
+
+    # The color of the site header; defaults to same as article background.
+    back:
+
+    # The site header text color; defaults to normal text color.
+    text:
+
+  # Offcanvas menu colors:
+  menu:
+
+    # The color of the offcanvas menu; defaults same as article background.
+    back:
+
+    # The offcanvas menu text color; defaults to normal text color.
+    text:
+
+# The filename of your custom CSS file; Jekyll will look for this in the '/assets/css/' directory.
+custom_css:
+
+
+### SITE OWNER SETTINGS
+
+# The name to display in the copyright notice in the site's footer.
+owner:          Your Name Here
+
+# Use the settings below to show your contact info in the footer.
+contact:
+
+  # Use the settings below to specify the social media accounts to be displayed.
+  accounts:
+
+    - type:     dribble
+      link:
+
+    - type:     facebook
+      link:     "#"
+
+    - type:     github
+      link:     "https://github.com/dcsjapan"
+
+    - type:     gitlab
+      link:     "#"
+
+    - type:     instagram
+      link:     "#"
+
+    - type:     line
+      link:     "#"
+
+    - type:     linkedin
+      link:     "#"
+
+    - type:     pinterest
+      link:
+
+    - type:     slack
+      link:     "#"
+
+    - type:     twitter
+      link:     "#"
+
+  # Use the settings below to specify the social media accounts to be displayed.
+  email:        "nobody@example.com"
+
+  # This enables the display of icons in the footer. Leave it blank to disable icons completely.
+  icons:        true
+
+
+### BUILD SETTINGS
+
+sass:
+  style: expanded   # NOTE: Use 'compressed' when building the theme's demo site.
+
+# Use these plugins:
+plugins:
+ - jekyll-liquify
+ - jekyll-paginate
+
+# Paginate as specified below:
+paginate:       3
+paginate_path:  "/page:num/"
+
+# Exclude the following items from processing:
+exclude:
+  - jekyll-theme-future-deluxe
+  - LICENSE.txt
+  - README.md
+
+### DEMO SITE BUILD SETTINGS
+
+# NOTE: Only include this demo content when building the theme's demo site.
+include:
+  - demo
+  - demo_images
+
+### SERVER SETTINGS
+
+host: 0.0.0.0

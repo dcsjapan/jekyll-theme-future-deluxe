@@ -1,0 +1,8 @@
+category: 'Posts in category "{{ page.title }}"'
+
+log_in: Log In
+menu:   Menu
+
+read_more: Continue Reading
+
+search: Search

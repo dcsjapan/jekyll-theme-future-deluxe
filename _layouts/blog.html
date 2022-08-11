@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% if site.plugins contains 'jekyll-paginate' %}
+  {% assign blog_source = paginator.posts %}
+{% else %}
+  {% assign blog_source = site.posts %}
+{% endif %}
+
+{% for post in blog_source %}
+  {% include blog-post.html %}
+{% endfor %}
+
+<!-- Pagination -->
+{% if paginator.total_pages > 1 %}
+  <ul class="actions pagination">
+
+    {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="button large previous">Previous Page</a></li>
+    {% else %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="disabled button large previous">Previous Page</a></li>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="button large next">Next Page</a></li>
+    {% else %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="disabled button large next">Next Page</a></li>
+    {% endif %}
+  </ul>
+{% endif %}

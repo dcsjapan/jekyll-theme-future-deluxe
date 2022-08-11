@@ -1,0 +1,22 @@
+///
+///	Future Deluxe for Jekyll (https://github.com/dcsjapan/jekyll-theme-future-deluxe)
+///	by Dominion (https://www.dcsjapan.com)
+///	Free for personal and commercial use under CC-BY-3.0 (https://creativecommons.org/licenses/by/3.0/)
+///
+///	Based on Future Imperfect (https://html5up.net/future-imperfect)
+///	by HTML5 UP (https://html5up.net | @ajlkn)
+///	Free for personal and commercial use under CC-BY-3.0 (https://html5up.net/license)
+///
+
+/* Main */
+
+	#main {
+		@include vendor('flex-grow', '1');
+		-ms-flex: 1;
+		width: 100%;
+
+		> h2 {
+			text-align: center;
+			margin-bottom: _size(section-spacing);
+		}
+	}

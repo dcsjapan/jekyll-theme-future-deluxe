@@ -1,0 +1,15 @@
+{% assign image_source = site.image_source | default: '/assets/images/' %}
+<!-- Sidebar -->
+<section id="sidebar">
+
+  {% include sidebar-intro.html datafile=site.data.sidebar-intro %}
+
+  {% include sidebar-mini-posts.html %}
+
+  {% include sidebar-posts-list.html %}
+
+  {% include sidebar-about.html datafile=site.data.sidebar-about %}
+
+  {% include footer.html %}
+
+</section>
