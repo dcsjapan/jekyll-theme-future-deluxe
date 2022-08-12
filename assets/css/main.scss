@@ -18,14 +18,14 @@
 
 // Setting palette variables...
 	$palette: (
-		bg:							{{ site.colors.article | default: '#ffffff' }},
+		bg:							{{ site.colors.main | default: '#ffffff' }},
 		bg-alt:						{{ site.colors.body | default: '#f4f4f4' }},
 		fg:							{{ site.colors.text.normal | default: '#646464' }},
 		fg-bold:					{{ site.colors.text.bold | default: '#3c3b3b' }},
 		fg-light:					{{ site.colors.text.lite | default: '#aaaaaa' }},
-		border:						rgba(160,160,160,0.3),
-		border-bg:					rgba(160,160,160,0.075),
-		border-alt:					rgba(160,160,160,0.65),
+		border:						rgba({{ site.colors.border | default: '#a0a0a0' }},0.3),
+		border-bg:					rgba({{ site.colors.border | default: '#a0a0a0' }},0.075),
+		border-alt:					rgba({{ site.colors.border | default: '#a0a0a0' }},0.65),
 		accent:						{{ site.colors.accent | default: '#2ebaae' }}
 	);
 

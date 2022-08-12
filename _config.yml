@@ -10,10 +10,10 @@
 ### SITE SETTINGS
 
 # The title of your site; used in title tags and <h1> headers. Defaults to "Future Deluxe".
-title:            Future Deluxe
+title:          Future Deluxe
 
 # The site description; used in site description meta tags.
-description:      A customizable Jekyll theme based on the "Future Imperfect" site template by HTML5 UP
+description:    A customizable Jekyll theme based on the "Future Imperfect" site template by HTML5 UP
 
 # The default language for all pages in the site; defaults to "en".
 lang:           en
@@ -85,7 +85,7 @@ font:
       bold:    800
 
       # The font weight for extrabold headers; defaults to 900.
-      black:   400
+      black:   900
 
 # The URL for the webfonts to use for the site; defaults to Source Sans and Raleway from Google.
 webfonts_url:  "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900"
@@ -116,6 +116,9 @@ colors:
 
   # The accent color for links and buttons; defaults to "#2ebaae".
   accent:      "#2ebaae"
+
+  # The border color; defaults to "#a0a0a0".
+  border:      "#a0a0a0"
 
   # Site header colors:
   header:
