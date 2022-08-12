@@ -3,7 +3,7 @@ layout:   post
 title:    Congue ullam corper lorem ipsum dolor
 subtitle: Aliquam ut ex ut interdum donec amet imperdiet eleifend
 author:   Jane Doe
-image:    future-imperfect/pic06.jpg
+image:    pic06.jpg
 category: Lorem
 sidebar:  list
 ---

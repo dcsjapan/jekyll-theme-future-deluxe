@@ -3,7 +3,7 @@ layout:   post
 title:    Rutrum neque accumsan
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
-image:    future-imperfect/pic05.jpg
+image:    pic05.jpg
 category: Tempus
 sidebar:  mini
 ---

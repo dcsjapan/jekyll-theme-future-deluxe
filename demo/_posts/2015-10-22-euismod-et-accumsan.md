@@ -3,7 +3,7 @@ layout:   post
 title:    Euismod et accumsan
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
-image:    future-imperfect/pic03.jpg
+image:    pic03.jpg
 category: General
 ---
 

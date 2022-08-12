@@ -3,7 +3,7 @@ layout:   post
 title:    Magna enim accumsan tortor cursus ultricies
 subtitle: Aliquam ut ex ut interdum donec amet imperdiet eleifend
 author:   Jane Doe
-image:    future-imperfect/pic05.jpg
+image:    pic05.jpg
 category: Ipsum
 sidebar:  list
 ---

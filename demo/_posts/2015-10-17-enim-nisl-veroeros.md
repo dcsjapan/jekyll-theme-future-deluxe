@@ -3,7 +3,7 @@ layout:   post
 title:    Enim nisl veroeros
 subtitle: Aliquam ut ex ut interdum donec amet imperdiet eleifend
 author:   Jane Doe
-image:    future-imperfect/pic07.jpg
+image:    pic07.jpg
 category: Ipsum
 sidebar:  mini
 ---

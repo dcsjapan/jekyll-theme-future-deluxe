@@ -3,7 +3,7 @@ layout:   post
 title:    Vitae sed condimentum
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
-image:    future-imperfect/pic04.jpg
+image:    pic04.jpg
 category: Adipiscing
 sidebar:  mini
 ---

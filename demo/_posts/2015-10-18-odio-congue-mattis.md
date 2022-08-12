@@ -3,7 +3,7 @@ layout:   post
 title:    Odio congue mattis
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
-image:    future-imperfect/pic06.jpg
+image:    pic06.jpg
 category: Feugiat
 sidebar:  mini
 ---

@@ -3,7 +3,7 @@ layout:   post
 title:    Magna sed adipiscing
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
-image:    future-imperfect/pic01.jpg
+image:    pic01.jpg
 category: General
 ---
 

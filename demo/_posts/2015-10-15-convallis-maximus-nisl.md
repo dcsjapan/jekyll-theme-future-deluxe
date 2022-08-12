@@ -3,7 +3,7 @@ layout:   post
 title:    Convallis maximus nisl mattis nunc id lorem
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
-image:    future-imperfect/pic03.jpg
+image:    pic03.jpg
 category: Tempus
 sidebar:  list
 ---

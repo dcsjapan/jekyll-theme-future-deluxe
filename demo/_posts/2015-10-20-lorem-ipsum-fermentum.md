@@ -3,7 +3,7 @@ layout:   post
 title:    Lorem ipsum fermentum ut nisl vitae
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
-image:    future-imperfect/pic02.jpg
+image:    pic02.jpg
 category: Lorem
 sidebar:  list
 ---
