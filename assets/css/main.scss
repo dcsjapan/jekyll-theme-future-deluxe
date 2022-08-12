@@ -5,14 +5,14 @@
 
 // Setting font variables...
 	$font: (
-		family:						({{ site.font_family.text | default: "'Source Sans', Helvetica, sans-serif" }}),
+		family:						({{ site.font.text.family | default: "'Source Sans', Helvetica, sans-serif" }}),
 		family-fixed:				('Courier New', monospace),
-		family-heading:				({{ site.font_family.head | default: "'Raleway', Helvetica, sans-serif" }}),
-		weight:						400,
-		weight-bold:				700,
-		weight-heading:				400,
-		weight-heading-bold:		800,
-		weight-heading-extrabold:	900,
+		family-heading:				({{ site.font.head.family | default: "'Raleway', Helvetica, sans-serif" }}),
+		weight:						{{ site.font.text.weight.normal | default: 400 }},
+		weight-bold:				{{ site.font.text.weight.bold | default: 700 }},
+		weight-heading:				{{ site.font.head.weight.normal | default: 400 }},
+		weight-heading-bold:		{{ site.font.head.weight.bold | default: 800 }},
+		weight-heading-extrabold:	{{ site.font.head.weight.black | default: 900 }},
 		kerning-heading:			0.25em
 	);
 
@@ -43,7 +43,7 @@
 	@import "{{ '/assets/css/fontawesome-all.min.css' | relative_url }}";
 {% endif %}
 
-// Importing main Spectral styles...
+// Importing main Future Imperfect styles...
   @import 'future-imperfect-main';
 
 // Setting custom theme colors as configured...

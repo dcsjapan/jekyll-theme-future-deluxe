@@ -7,7 +7,7 @@
 #	Free for personal and commercial use under CC-BY-3.0 (https://html5up.net/license)
 
 
-# SITE SETTINGS
+### SITE SETTINGS
 
 # The title of your site; used in title tags and <h1> headers. Defaults to "Future Deluxe".
 title:          Site Title
@@ -34,7 +34,7 @@ date_format:    "%B %d, %Y"
 excerpt_separator: <!--end_excerpt-->
 
 
-# TITLE TAG SETTINGS
+### TITLE TAG SETTINGS
 
 # The order in which the site and page titles should be shown in title tags.
 title_sequence:   page  # Enter "site" to show the site title first; defaults to "page".
@@ -46,49 +46,76 @@ title_separator:  " | "
 tagline:          A shorter description of the site
 
 
-# THEME SETTINGS
+### THEME SETTINGS
 
 # This enables use of the Future Deluxe theme.
-theme:          jekyll-theme-future-deluxe
+theme:         jekyll-theme-future-deluxe
 
 # Use the settings below customize your site's fonts.
-font_family:
+font:
 
-  # the font family setting for body text; defaults to "'Source Sans', Helvetica, sans-serif".
-  text:           "'Source Sans', Helvetica, sans-serif"
+  # Use the settings below customize the font settings for body text.
+  text:
 
-  # the font family setting for headlines; defaults to "'Raleway', Helvetica, sans-serif".
-  head:           "'Raleway', Helvetica, sans-serif"
+    # The font family for body text; defaults to "'Source Sans', Helvetica, sans-serif".
+    family:    "'Source Sans', Helvetica, sans-serif"
+
+    # The font weights for body text:
+    weight:
+
+      # The font weight for normal text; defaults to 400.
+      normal:  400
+
+      # The font weight for bold text; defaults to 700.
+      bold:    700
+
+  # Use the settings below customize the font settings for headers.
+  head:
+
+    # The font family for body text; defaults to "'Source Sans', Helvetica, sans-serif".
+    family:    "'Raleway', Helvetica, sans-serif"
+
+    # The font weights for headers:
+    weight:
+
+      # The font weight for normal headers; defaults to 400.
+      normal:  400
+
+      # The font weight for bold headers; defaults to 800.
+      bold:    800
+
+      # The font weight for extrabold headers; defaults to 900.
+      black:   400
 
 # The URL for the webfonts to use for the site; defaults to Source Sans and Raleway from Google.
-webfonts_url:     "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900"
+webfonts_url:  "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900"
 
 # This enables loading of Font Awesome icon fonts; leave blank to disable.
-use_fa_fonts:     true  # NOTE: Must be enabled to show social media icons in the footer.
+use_fa_fonts:  true  # NOTE: Must be enabled to show social media icons in the footer.
 
 # Use the settings below customize your site's colors. (NOTE: HEX VALUES MUST BE IN QUOTES!)
 colors:
 
   # The webapge background color; defaults to "#f4f4f4".
-  body:           "#f4f4f4"
+  body:        "#f4f4f4"
 
   # The background color for articles; defaults to "#ffffff".
-  main:           "#ffffff"
+  main:        "#ffffff"
 
   # Text colors:
   text:
 
     # The color of normal text; defaults to "#646464".
-    normal:       "#646464"
+    normal:    "#646464"
 
     # The color of bold text; defaults to "#3c3b3b".
-    bold:         "#3c3b3b"
+    bold:      "#3c3b3b"
 
     # The color of light text; defaults to "#aaaaaa".
-    lite:         "#aaaaaa"
+    lite:      "#aaaaaa"
 
   # The accent color for links and buttons; defaults to "#2ebaae".
-  accent:         "#2ebaae"
+  accent:      "#2ebaae"
 
   # Site header colors:
   header:
@@ -112,7 +139,7 @@ colors:
 custom_css:
 
 
-# SITE OWNER SETTINGS
+### SITE OWNER SETTINGS
 
 # The name to display in the copyright notice in the site's footer.
 owner:          Your Name Here
@@ -160,7 +187,7 @@ contact:
   icons:        true
 
 
-# BUILD SETTINGS
+### BUILD SETTINGS
 
 sass:
   style: compressed
