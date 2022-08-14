@@ -1,0 +1,10 @@
+sections:
+- type:   mini-posts
+  class:  featured
+  value:  mini
+  max:    4
+
+- type:   posts-list
+  class:  featured
+  value:  list
+  max:    6

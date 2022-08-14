@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   page
 title:    Magna sed adipiscing
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe

@@ -51,6 +51,18 @@ tagline:          A Jekyll theme based on Future Imperfet by HTML5 UP
 # This enables use of the Future Deluxe theme. (NOTE: REFERENCE ONLY; DO NOT UNCOMMENT!)
 # theme:         jekyll-theme-future-deluxe
 
+# Use the settings below to specify the sidebar for each layout.
+sidebar:
+
+  # The sidebar to use with the blog layout; leave blank for no sidebar.
+  blog:        standard
+
+  # The sidebar to use with the category layout; leave blank for no sidebar.
+  category:    standard
+
+  # The sidebar to use with the page layout; leave blank for no sidebar.
+  page:
+
 # Use the settings below customize your site's fonts.
 font:
 
@@ -69,7 +81,7 @@ font:
       # The font weight for bold text; defaults to 700.
       bold:    700
 
-  # Use the settings below customize the font settings for headers.
+  # Use the settings below to customize the font settings for headers.
   head:
 
     # The font family for body text; defaults to "'Source Sans', Helvetica, sans-serif".
@@ -93,7 +105,7 @@ webfonts_url:  "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|
 # This enables loading of Font Awesome icon fonts; leave blank to disable.
 use_fa_fonts:  true  # NOTE: Must be enabled to show social media icons in the footer.
 
-# Use the settings below customize your site's colors. (NOTE: HEX VALUES MUST BE IN QUOTES!)
+# Use the settings below to customize your site's colors. (NOTE: HEX VALUES MUST BE IN QUOTES!)
 colors:
 
   # The webapge background color; defaults to "#f4f4f4".
@@ -186,7 +198,7 @@ contact:
   # Use the settings below to specify the social media accounts to be displayed.
   email:        "nobody@example.com"
 
-  # This enables the display of icons in the footer. Leave it blank to disable icons completely.
+  # This enables the display of social icons in the footer; leave blank to disable completely.
   icons:        true
 
 

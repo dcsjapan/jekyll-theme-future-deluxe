@@ -1,0 +1,42 @@
+{% assign image_source = site.image_source | default: '/assets/images/' %}
+{% if include.type == 'excerpt' %}{% assign include_type = 'post' %}{% else %}{% assign include_type = 'page' %}{% endif %}
+{% if [include_type]author and [include_type]date %}{% assign article_type = "post" %}{% else %}{% assign article_type = 'page' %}{% endif %}
+
+<!-- Post -->
+<article class="{{ article_type }}">
+  <header>
+    <div class="title">
+      <h2><a href="{{ [include_type]url | relative_url }}">{{ [include_type]heading | default: [include_type]title }}</a></h2>
+      <p>{{ [include_type]subtitle }}</p>
+    </div>
+  {% if article_type == 'post' %}
+    <div class="meta">
+      <time class="published">{{ [include_type]date | date: site.date_format }}</time>
+      <a href="#" class="author"><span class="name">{{ [include_type]author }}</span><img src="{{ 'avatar.jpg' | prepend: image_source | relative_url }}" alt="" /></a>
+    </div>
+  {% endif %}
+  </header>
+
+{% if include_type == 'post' %}
+  <a href="{{ post.url | relative_url }}" class="image featured"><img src="{{ post.image | prepend: image_source | relative_url }}" alt="" /></a>
+  {{ post.excerpt }}
+{% else %}
+  <span class="image featured"><img src="{{ page.image | prepend: image_source | relative_url }}" alt="" /></span>
+  {{ content }}
+{% endif %}
+
+  <footer>
+  {% if include_type == 'post' %}
+    <ul class="actions">
+      <li><a href="{{ [article_type]url | relative_url }}" class="button large">Continue Reading</a></li>
+    </ul>
+  {% endif %}
+  {% if article_type == 'post' %}
+    <ul class="stats">
+      <li><a href="{{ [include_type]category | downcase | prepend: '/' | append: '/' | relative_url }}">{{ [include_type]category }}</a></li>
+      <li><a href="#" class="icon solid fa-heart">28</a></li>
+      <li><a href="#" class="icon solid fa-comment">128</a></li>
+    </ul>
+  {% endif %}
+  </footer>
+</article>

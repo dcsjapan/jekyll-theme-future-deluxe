@@ -1,11 +1,11 @@
 ---
-layout:   post
+layout:   page
 title:    Vitae sed condimentum
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
 image:    pic04.jpg
 category: Adipiscing
-sidebar:  mini
+featured: mini
 ---
 
 Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Fringilla ut morbi tincidunt augue interdum. Diam maecenas ultricies mi eget mauris pharetra et ultrices neque. Non quam lacus suspendisse faucibus interdum. Pellentesque eu tincidunt tortor aliquam nulla facilisi.<!--end_excerpt-->

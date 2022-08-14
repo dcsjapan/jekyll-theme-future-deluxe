@@ -48,13 +48,25 @@ tagline:          A shorter description of the site
 
 ### THEME SETTINGS
 
-# This enables use of the Future Deluxe theme.
-theme:         jekyll-theme-future-deluxe
+# This enables use of the Future Deluxe theme. (NOTE: REFERENCE ONLY; DO NOT UNCOMMENT!)
+# theme:         jekyll-theme-future-deluxe
 
-# Use the settings below customize your site's fonts.
+# Use the settings below to specify the sidebar for each layout.
+sidebar:
+
+  # The sidebar to use with the blog layout; leave blank for no sidebar.
+  blog:        standard
+
+  # The sidebar to use with the category layout; leave blank for no sidebar.
+  category:    standard
+
+  # The sidebar to use with the page layout; leave blank for no sidebar.
+  page:
+
+# Use the settings below to customize your site's fonts.
 font:
 
-  # Use the settings below customize the font settings for body text.
+  # Use the settings below to customize the font settings for body text.
   text:
 
     # The font family for body text; defaults to "'Source Sans', Helvetica, sans-serif".
@@ -69,7 +81,7 @@ font:
       # The font weight for bold text; defaults to 700.
       bold:    700
 
-  # Use the settings below customize the font settings for headers.
+  # Use the settings below to customize the font settings for headers.
   head:
 
     # The font family for body text; defaults to "'Source Sans', Helvetica, sans-serif".
@@ -85,7 +97,7 @@ font:
       bold:    800
 
       # The font weight for extrabold headers; defaults to 900.
-      black:   400
+      black:   900
 
 # The URL for the webfonts to use for the site; defaults to Source Sans and Raleway from Google.
 webfonts_url:  "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900"
@@ -93,7 +105,7 @@ webfonts_url:  "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|
 # This enables loading of Font Awesome icon fonts; leave blank to disable.
 use_fa_fonts:  true  # NOTE: Must be enabled to show social media icons in the footer.
 
-# Use the settings below customize your site's colors. (NOTE: HEX VALUES MUST BE IN QUOTES!)
+# Use the settings below to customize your site's colors. (NOTE: HEX VALUES MUST BE IN QUOTES!)
 colors:
 
   # The webapge background color; defaults to "#f4f4f4".
@@ -116,6 +128,9 @@ colors:
 
   # The accent color for links and buttons; defaults to "#2ebaae".
   accent:      "#2ebaae"
+
+  # The border color; defaults to "#a0a0a0".
+  border:      "#a0a0a0"
 
   # Site header colors:
   header:
@@ -183,7 +198,7 @@ contact:
   # Use the settings below to specify the social media accounts to be displayed.
   email:        "nobody@example.com"
 
-  # This enables the display of icons in the footer. Leave it blank to disable icons completely.
+  # This enables the display of social icons in the footer; leave blank to disable completely.
   icons:        true
 
 

@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   page
 title:    Euismod et accumsan
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe

@@ -1,10 +1,10 @@
 {% assign image_source = site.image_source | default: '/assets/images/' %}
-{% assign post_source = site.posts | where: 'sidebar', 'mini' %}
+{% assign post_source = site.posts | where: include.class, include.value %}
 
 <!-- Mini Posts -->
 <section>
   <div class="mini-posts">
-    {% for post in post_source %}
+    {% for post in post_source limit: include.max %}
       <!-- Mini Post -->
       <article class="mini-post">
         <header>

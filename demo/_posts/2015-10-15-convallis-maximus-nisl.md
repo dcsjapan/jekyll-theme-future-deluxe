@@ -1,11 +1,11 @@
 ---
-layout:   post
+layout:   page
 title:    Convallis maximus nisl mattis nunc id lorem
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
 image:    pic03.jpg
 category: Tempus
-sidebar:  list
+featured: list
 ---
 
 Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Cras semper auctor neque vitae. Enim blandit volutpat maecenas volutpat. Dui nunc mattis enim ut. Diam sollicitudin tempor id eu nisl. Duis ut diam quam nulla porttitor massa. Nec ullamcorper sit amet risus. Eu augue ut lectus arcu bibendum at.<!--end_excerpt-->

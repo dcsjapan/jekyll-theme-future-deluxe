@@ -3,30 +3,4 @@ layout: default
 ---
 {% assign image_source = site.image_source | default: '/assets/images/' %}
 <!-- Post -->
-<article class="{{ page.layout }}">
-	<header>
-		<div class="title">
-			<h2>{{ page.header | default: page.title }}</h2>
-			<p>{{ page.subtitle }}</p>
-		</div>
-		{% if page.layout == 'post' %}
-			<div class="meta">
-				<time class="published">{{ page.date | date: site.date_format }}</time>
-				<a href="#" class="author"><span class="name">{{ page.author }}</span><img src="{{ 'avatar.jpg' | prepend: image_source | relative_url }}" alt="" /></a>
-			</div>
-		{% endif %}
-	</header>
-	<span class="image featured"><img src="{{ page.image | prepend: image_source | relative_url }}" alt="" /></span>
-
-  {{ content }}
-
-  <footer>
-    {% if page.layout == 'post' %}
-  		<ul class="stats">
-  			<li><a href="{{ page.category | downcase | prepend: '/' | append: '/' | relative_url }}">{{ page.category }}</a></li>
-  			<li><a href="#" class="icon solid fa-heart">28</a></li>
-  			<li><a href="#" class="icon solid fa-comment">128</a></li>
-  		</ul>
-    {% endif %}
-  </footer>
-</article>
+{% include article.html %}

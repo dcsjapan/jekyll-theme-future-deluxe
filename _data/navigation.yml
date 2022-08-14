@@ -12,7 +12,7 @@ header:
     link: /tempus/
 
   - text: Adipiscing
-    link: /adipsicing/
+    link: /adipiscing/
 
 menu:
   - text: Home
@@ -22,6 +22,10 @@ menu:
   - text: Generic
     sub:  A single-column page
     link: /single/
+
+  - text: Sidebar
+    sub:  A page with a sidebar
+    link: /sidebar/
 
   - text: Error
     sub:  A sample error page

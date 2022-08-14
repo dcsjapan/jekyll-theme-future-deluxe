@@ -2,13 +2,14 @@
 <!-- Sidebar -->
 <section id="sidebar">
 
-  {% include sidebar-intro.html datafile=site.data.sidebar-intro %}
+  {% include sidebar/intro.html datafile=site.data.sidebar.intro %}
 
-  {% include sidebar-mini-posts.html %}
+  {% for section in include.datafile.sections %}
+    {% assign include_file = section.type | prepend: 'sidebar/' | append: '.html' %}
+    {% include {{ include_file }} class=section.class value=section.value max=section.max %}
+  {% endfor %}
 
-  {% include sidebar-posts-list.html %}
-
-  {% include sidebar-about.html datafile=site.data.sidebar-about %}
+  {% include sidebar/about.html datafile=site.data.sidebar.about %}
 
   {% include footer.html %}
 

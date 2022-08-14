@@ -1,11 +1,11 @@
 ---
-layout:   post
+layout:   page
 title:    Rutrum neque accumsan
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
 image:    pic05.jpg
 category: Tempus
-sidebar:  mini
+featured: mini
 ---
 
 Faucibus vitae aliquet nec ullamcorper sit. Habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Fringilla ut morbi tincidunt augue interdum. Diam maecenas ultricies mi eget mauris pharetra et ultrices neque. Non quam lacus suspendisse faucibus interdum. Pellentesque eu tincidunt tortor aliquam nulla facilisi.<!--end_excerpt-->

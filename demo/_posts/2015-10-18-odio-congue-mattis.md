@@ -1,11 +1,11 @@
 ---
-layout:   post
+layout:   page
 title:    Odio congue mattis
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
 image:    pic06.jpg
 category: Feugiat
-sidebar:  mini
+featured: mini
 ---
 
 Turpis in eu mi bibendum neque. Blandit cursus risus at ultrices mi tempus imperdiet nulla. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Cras semper auctor neque vitae. Enim blandit volutpat maecenas volutpat. Dui nunc mattis enim ut. Diam sollicitudin tempor id eu nisl.<!--end_excerpt-->

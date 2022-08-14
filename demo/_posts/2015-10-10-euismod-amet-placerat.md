@@ -1,11 +1,11 @@
 ---
-layout:   post
+layout:   page
 title:    Euismod amet placerat vivamus porttitor
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe
 image:    pic04.jpg
 category: Feugiat
-sidebar:  list
+featured: list
 ---
 
 Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Malesuada fames ac turpis egestas maecenas. Mattis aliquam faucibus purus in massa tempor nec feugiat. Faucibus vitae aliquet nec ullamcorper sit amet risus. Amet aliquam id diam maecenas ultricies. Massa eget egestas purus viverra. Aliquet lectus proin nibh nisl condimentum id. Mi proin sed libero enim sed faucibus turpis in.<!--end_excerpt-->

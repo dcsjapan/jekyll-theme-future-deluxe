@@ -1,5 +1,5 @@
 ---
-layout:   post
+layout:   page
 title:    Ultrices sed magna euismod enim vitae gravida
 subtitle: Lorem ipsum dolor amet nullam consequat etiam feugiat
 author:   Jane Doe

@@ -1,11 +1,11 @@
 ---
-layout:   post
+layout:   page
 title:    Magna enim accumsan tortor cursus ultricies
 subtitle: Aliquam ut ex ut interdum donec amet imperdiet eleifend
 author:   Jane Doe
 image:    pic05.jpg
 category: Ipsum
-sidebar:  list
+featured: list
 ---
 
 Eget mi proin sed libero enim sed. Egestas sed tempus urna et pharetra pharetra. Sem integer vitae justo eget magna fermentum iaculis eu. Feugiat scelerisque varius morbi enim. Consectetur purus ut faucibus pulvinar elementum integer enim neque. Non sodales neque sodales ut etiam sit. Arcu bibendum at varius vel pharetra vel turpis nunc. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc.<!--end_excerpt-->

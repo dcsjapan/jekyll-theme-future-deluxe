@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<h2>{{ site.data.common.category | liquify }}</h2>
+<h2>{{ site.data.common.category | liquify | smartify }}</h2>
 
 {% assign post_source = site.posts | where: 'category', page.title %}
 
 {% for post in post_source %}
-  {% include blog-post.html %}
+  {% include article.html type='excerpt' %}
 {% endfor %}

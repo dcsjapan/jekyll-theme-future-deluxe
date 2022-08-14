@@ -1,11 +1,11 @@
 ---
-layout:   post
+layout:   page
 title:    Enim nisl veroeros
 subtitle: Aliquam ut ex ut interdum donec amet imperdiet eleifend
 author:   Jane Doe
 image:    pic07.jpg
 category: Ipsum
-sidebar:  mini
+featured: mini
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames. Quisque id diam vel quam elementum. Neque viverra justo nec ultrices dui sapien. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Facilisis mauris sit amet massa vitae tortor condimentum. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis.<!--end_excerpt-->
