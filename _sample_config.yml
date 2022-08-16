@@ -156,50 +156,51 @@ custom_css:
 
 ### SITE OWNER SETTINGS
 
-# The name to display in the copyright notice in the site's footer.
-owner:          Your Name Here
+# The name to display in the copyright notice in the site footer.
+owner:       Your Name Here
 
-# Use the settings below to show your contact info in the footer.
+# Use the settings below to display contact links in the site footer.
 contact:
 
-  # Use the settings below to specify the social media accounts to be displayed.
+  # Add a 'type' and a 'link' for each social media account to be displayed.
   accounts:
 
-    - type:     dribble
-      link:
+    - type:  dribbble
+      link:  "#"
 
-    - type:     facebook
-      link:     "#"
+    - type:  facebook
+      link:  "#"
 
-    - type:     github
-      link:     "https://github.com/dcsjapan"
+    - type:  flickr
+      link:  "#"
 
-    - type:     gitlab
-      link:     "#"
+    - type:  github
+      link:  "#"
 
-    - type:     instagram
-      link:     "#"
+    - type:  gitlab
+      link:  "#"
 
-    - type:     line
-      link:     "#"
+    - type:  instagram
+      link:  "#"
 
-    - type:     linkedin
-      link:     "#"
+    - type:  linkedin
+      link:  "#"
 
-    - type:     pinterest
-      link:
+    - type:  pinterest
+      link:  "#"
 
-    - type:     slack
-      link:     "#"
+    - type:  slack
+      link:  "#"
 
-    - type:     twitter
-      link:     "#"
+    - type:  twitter
+      link:  "#"
 
-  # Use the settings below to specify the social media accounts to be displayed.
-  email:        "nobody@example.com"
+  # The contact email address for the site. This will also be displayed as a link.
+  email:     "nobody@example.com"
 
-  # This enables the display of social icons in the footer; leave blank to disable completely.
-  icons:        true
+  # This enables the display of contact links in the footer; leave blank to disable.
+  # NOTE: Links will be displayed as text if 'site.use_fa_fonts' is disabled.
+  links:     true
 
 
 ### BUILD SETTINGS

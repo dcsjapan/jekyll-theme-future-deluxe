@@ -1,17 +1,17 @@
 <!-- Footer -->
 <section id="footer">
 
-  {% if site.use_fa_fonts and site.contact.icons %}
+  {% if site.contact.links %}
     <ul class="icons">
       {% for account in site.contact.accounts %}
         {% if account.link %}
         {% assign icon = account.type %}
-          <li><a href="{{ account.link }}" class="icon {{ site.data.social[icon].type }}"><span class="label">{{ site.data.social[icon].label }}</span></a></li>
+          <li><a href="{{ account.link }}"{% if site.use_fa_fonts %} class="icon {{ site.data.social[icon].type }}"{% endif %}><span class="copyright label">{{ site.data.social[icon].label }}</span></a></li>
         {% endif %}
       {% endfor %}
       {% if site.contact.email %}
-        {% assign type = 'email' %}
-        <li><a href="mailto:{{ site.contact.email }}" class="icon {{ site.data.social[type].type }}"><span class="label">{{ site.data.social[type].label }}</span></a></li>
+        {% assign icon = 'email' %}
+        <li><a href="mailto:{{ site.contact.email }}"{% if site.use_fa_fonts %}  class="icon {{ site.data.social[icon].type }}"{% endif %}><span class="copyright label">{{ site.data.social[icon].label }}</span></a></li>
       {% endif %}
     </ul>
   {% endif %}

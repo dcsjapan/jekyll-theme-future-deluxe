@@ -56,3 +56,16 @@
 	{% if site.colors.menu.back %}background-color: {{ site.colors.menu.back }};{% endif %}
 	{% if site.colors.menu.text %}color: {{ site.colors.menu.text }} !important;{% endif %}
 }
+
+// Displaying footer links if Font Awesome icons are disabled...
+	{% unless site.use_fa_fonts %}
+		ul.icons {
+			li {
+				> * {
+					.label {
+						display: inline;
+					}
+				}
+			}
+		}
+	{% endunless %}
