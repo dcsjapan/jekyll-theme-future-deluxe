@@ -6,7 +6,7 @@
 <article class="{{ article_type }}">
   <header>
     <div class="title">
-      <h2><a href="{{ [include_type]url | relative_url }}">{{ [include_type]heading | default: [include_type]title }}</a></h2>
+      <h2>{% if include_type == 'post' %}<a href="{{ [include_type]url | relative_url }}">{% endif %}{{ [include_type]heading | default: [include_type]title }}{% if include_type == 'post' %}</a>{% endif %}</h2>
       <p>{{ [include_type]subtitle }}</p>
     </div>
   {% if article_type == 'post' %}
